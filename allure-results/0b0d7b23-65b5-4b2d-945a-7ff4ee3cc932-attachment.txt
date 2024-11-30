@@ -1,0 +1,47 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                      Test Method: 'OrangeHRM.Tests.login'                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Username" @05-11-2024 23:32:12.0258 PM
+[ReportManager] Type "Password" @05-11-2024 23:32:12.0558 PM
+[ReportManager] Click "Login" @05-11-2024 23:32:14.0922 PM
+[ReportManager] Click "By.xpath: //a[@class="oxd-main-menu-item"]//span[contains(.,'Admin')]" @05-11-2024 23:32:16.0983 PM
+[ReportManager] Get text "(9) Records Found" from "By.xpath: //span[contains(@class,'oxd-text')][contains(.,'Records')]". @05-11-2024 23:32:18.0674 PM
+[ReportManager] Click " Add" @05-11-2024 23:32:19.0355 PM
+[ReportManager] Click "By.xpath: //label[contains(.,'User Role')]/../following-sibling::div" @05-11-2024 23:32:19.0762 PM
+[ReportManager] Click "Admin" @05-11-2024 23:32:19.0863 PM
+[ReportManager] Click "By.xpath: //label[contains(.,'Status')]/../following-sibling::div" @05-11-2024 23:32:19.0948 PM
+[ReportManager] Click "Enabled" @05-11-2024 23:32:20.0025 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Password')]//following::input)[1]" @05-11-2024 23:32:20.0248 PM
+[ReportManager] Get text "Jose Silva" from "By.xpath: //p[@class="oxd-userdropdown-name"]". @05-11-2024 23:32:20.0353 PM
+[ReportManager] Type "Type for hints..." @05-11-2024 23:32:20.0648 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: (//div[@role="option"])[1]". @05-11-2024 23:32:22.0699 PM
+[ReportManager] Capture full screenshot @05-11-2024 23:32:25.0134 PM
+[ReportManager] Successfully created attachment 'Screenshot - captureScreenshot_23-32-25-132_05112024' @05-11-2024 23:32:25.0138 PM
+[ReportManager] Click "Jose da Silva" @05-11-2024 23:32:25.0261 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Username')]//following::input)[1]" @05-11-2024 23:32:25.0508 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Confirm Password')]//following::input)[1]" @05-11-2024 23:32:25.0791 PM
+[ReportManager] Click "Save" @05-11-2024 23:32:25.0914 PM
+[ReportManager] Assert that the element located by "By.xpath: //p[contains(@class,'oxd-text oxd-text-')][contains(.,'Successfully Saved')]" exists. @05-11-2024 23:32:25.0962 PM
+[ReportManager] Expected "true", and actual "true" @05-11-2024 23:32:27.0921 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_23-32-28-838_05112024' @05-11-2024 23:32:28.0842 PM
+[ReportManager] Expected "true", and actual "true" @05-11-2024 23:32:28.0844 PM
+[ReportManager] Assertion passed @05-11-2024 23:32:28.0846 PM
+[ReportManager] Get text "(10) Records Found" from "By.xpath: //span[contains(@class,'oxd-text')][contains(.,'Records')]". @05-11-2024 23:32:31.0749 PM
+[ReportManager] Verify that "10" is equal to "10". @05-11-2024 23:32:31.0758 PM
+[ReportManager] Expected "10", and actual "10" @05-11-2024 23:32:31.0760 PM
+[ReportManager] Expected "10", and actual "10" @05-11-2024 23:32:31.0761 PM
+[ReportManager] Verification passed @05-11-2024 23:32:31.0762 PM
+[ReportManager] Get text "(10) Records Found" from "By.xpath: //span[contains(@class,'oxd-text')][contains(.,'Records')]". @05-11-2024 23:32:31.0875 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Username')]//following::input)[1]" @05-11-2024 23:32:32.0146 PM
+[ReportManager] Click "Search" @05-11-2024 23:32:32.0232 PM
+[ReportManager] Click "By.xpath: //i[@class="oxd-icon bi-trash"]" @05-11-2024 23:32:32.0796 PM
+[ReportManager] Click " Yes, Delete" @05-11-2024 23:32:32.0885 PM
+[ReportManager] Click "Reset" @05-11-2024 23:32:33.0020 PM
+[ReportManager] Get text "(9) Records Found" from "By.xpath: //span[contains(@class,'oxd-text')][contains(.,'Records')]". @05-11-2024 23:32:33.0708 PM
+[ReportManager] Verify that "9" is equal to "9". @05-11-2024 23:32:33.0712 PM
+[ReportManager] Expected "9", and actual "9" @05-11-2024 23:32:33.0714 PM
+[ReportManager] Expected "9", and actual "9" @05-11-2024 23:32:33.0715 PM
+[ReportManager] Verification passed @05-11-2024 23:32:33.0716 PM
